@@ -1,6 +1,6 @@
 .card {
-    max-width: 30rem !important;
     background-color: rgb(216, 181, 4);
     border-radius: 0.5rem;
+    margin: 4rem;
   }
   

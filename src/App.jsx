@@ -1,37 +1,46 @@
-import Ability from './components/ability/Ability'
-import Card from './components/card/Card'
-import Image from './components/image/Image'
-import Text from './components/text/Text'
-import Title from './components/title/Title'
-import './index.css'
+import Ability from './components/ability/Ability';
+import Card from './components/card/Card';
+import Container from './components/container/Container';
+import Image from './components/image/Image';
+import Text from './components/text/Text';
+import Title from './components/title/Title';
 
 
 function App() {
 
   return (
     <>
-      
-      <Card>
-        <Image></Image>
-        <Text></Text>
-        <Ability></Ability>
-        <Title></Title>
-      </Card>
-      <Card>
-        <Image></Image>
-        <Text></Text>
-        <Ability></Ability>
-        <Title></Title>
-      </Card>
-      <Card>
-        <Image></Image>
-        <Text></Text>
-        <Ability></Ability>
-        <Title></Title>
-      </Card>
-      
-    </>
-  )
-}
+      <section className="app-container">
+        <Card>
+          <Image></Image>
+          <Text></Text>
+          <Ability></Ability>
+          <Title></Title>
+        </Card>
 
-export default App
+        <Card>
+          <Image></Image>
+          <Text></Text>
+          <Ability></Ability>
+          <Title></Title>
+        </Card>
+
+        <Card>
+          <Image></Image>
+          <Text></Text>
+          <Ability></Ability>
+          <Title></Title>
+        </Card>
+        
+        <Card>
+          <Image></Image>
+          <Text></Text>
+          <Ability></Ability>
+          <Title></Title>
+        </Card>
+      </section>
+    </>
+  );
+};
+
+export default App;
