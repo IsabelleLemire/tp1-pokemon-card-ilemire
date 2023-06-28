@@ -2,7 +2,6 @@
     max-width: 160rem;
     margin: 0 auto;
     padding: 0 1.5rem;
-    width: 50%;
   }
   
   .container.fluid {
@@ -11,5 +10,11 @@
   
   .container.no-gutters {
     padding: 0;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
   }
   

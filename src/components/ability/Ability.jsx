@@ -1,9 +1,14 @@
 import React from "react";
+import Text from "../text/Text";
 import "./Ability.css";
 
-const Ability = () => {
+const Ability = (props) => {
+  const classnames = ["ability"];
+  
   return (
-    <div>Ability</div>
+    <div className={classnames.join(" ")}>
+      <Text className="ability">{props.children}</Text>
+    </div>
   );
 };
 
