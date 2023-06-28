@@ -1,9 +1,18 @@
 import React from "react";
 import "./Text.css";
 
-const Text = () => {
+const Text = (props) => {
+  const Component = props.as || "p";
+  const classnames = ["text"];
+
+  if (props.className) {
+    classnames.push(props.className);
+  }
+
   return (
-    <div>Text</div>
+    <Component className={classnames.join(" ")}>
+      {props.children}
+    </Component>
   );
 };
 

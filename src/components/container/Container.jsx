@@ -15,6 +15,10 @@ const Container = (props) => {
     if (props.className) {
       classnames.push(props.className)
     }
+
+    if (props.grid) {
+      classnames.push("grid-container");
+    }    
   
     return (
       <div className={classnames.join(" ")}>

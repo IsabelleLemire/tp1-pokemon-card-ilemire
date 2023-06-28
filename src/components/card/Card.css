@@ -1,6 +1,7 @@
-.card {
+.card.container {
+    max-width: 40rem;
     background-color: rgb(216, 181, 4);
     border-radius: 0.5rem;
-    margin: 4rem;
-  }
+    padding: 25px;
+}
   
