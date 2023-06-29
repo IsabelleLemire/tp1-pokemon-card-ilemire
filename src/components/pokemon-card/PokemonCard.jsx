@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 import Card from '../card/Card';
 import Image from '../image/Image';
 import Title from '../title/Title';
@@ -8,32 +6,17 @@ import Ability from '../ability/Ability';
 import "./PokemonCard.css";
 
 const PokemonCard = (props) => {
-    const [showAbilities, setShowAbilities] = useState(false);
-
-    const onMouseEnter = () => {
-        setShowAbilities(true);
-    };
-
-    const onMouseLeave = () => {
-        setShowAbilities(false);
-    };
     
-    const imageProps = props.image;
-
     return (
-        <Card
-            className="pokemon-card"
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-        >
+        <Card className="pokemon-card">
             <Image 
-                src={imageProps.src}
-                alt={imageProps.alt}
-                width={imageProps.width}
-                height={imageProps.height}
+                src={props.image.src}
+                alt={props.image.alt}
+                width={props.image.width}
+                height={props.image.height}
             />
             <Title as="h2">{props.title}</Title>
-            {showAbilities && <Ability>{props.ability}</Ability>}
+            <Ability>{props.ability}</Ability>
         </Card>
     );
 };

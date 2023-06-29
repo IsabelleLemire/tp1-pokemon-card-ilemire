@@ -78,8 +78,7 @@ function App() {
             width:"100%"
           }}
           title="Pikachu"
-          ability="Static
-          Lightning Rod"
+          ability="Static, Lightning Rod"
           />
           <PokemonCard 
             image={{
@@ -88,9 +87,7 @@ function App() {
             width:"100%"
           }}
           title="Nidoran"
-          ability="Poison Point
-          Rivalry
-          Hustle"
+          ability="Poison Point, Rivalry, Hustle"
           /> 
           <PokemonCard 
             image={{
@@ -99,9 +96,7 @@ function App() {
             width:"100%"
           }}
           title="Clefairy"
-          ability="Cute Charm
-          Magic Guard
-          Friend Guard"
+          ability="Cute Charm, Magic Guard, Friend Guard"
           /> 
           <PokemonCard 
             image={{
@@ -110,8 +105,7 @@ function App() {
             width:"100%"
           }}
           title="Ninetales"
-          ability="Flash Fire
-          Drought"
+          ability="Flash Fire, Drought"
           /> 
           <PokemonCard 
             image={{
@@ -120,9 +114,7 @@ function App() {
             width:"100%"
           }}
           title="Jigglypuff"
-          ability="Cute Charm
-          Competitive
-          Friend Guard "
+          ability="Cute Charm, Competitive, Friend Guard "
           />         
         </Container>
       </div>

@@ -4,10 +4,10 @@ import "./Ability.css";
 
 const Ability = (props) => {
   const classnames = ["ability"];
-  
+
   return (
     <div className={classnames.join(" ")}>
-      <Text className="ability">{props.children}</Text>
+      <Text>{props.children}</Text>
     </div>
   );
 };
