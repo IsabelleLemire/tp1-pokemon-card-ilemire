@@ -4,3 +4,19 @@
   border-radius: 0.5rem;
   padding: 25px;
 }
+
+.ability-visible .ability-container {
+  display: block;
+}
+
+.card.ability-visible .ability {
+  display: block;
+}
+
+.ability-container {
+  display: none;
+}
+
+.ability {
+  display: none;
+}

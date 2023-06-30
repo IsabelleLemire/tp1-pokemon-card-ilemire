@@ -3,13 +3,13 @@ import Image from '../image/Image';
 import Title from '../title/Title';
 import Ability from '../ability/Ability';
 
-import "./PokemonCard.css";
+import './PokemonCard.css';
 
 const PokemonCard = (props) => {
-    
+
     return (
-        <Card className="pokemon-card">
-            <Image 
+        <Card>
+            <Image
                 src={props.image.src}
                 alt={props.image.alt}
                 width={props.image.width}

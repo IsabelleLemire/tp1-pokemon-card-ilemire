@@ -2,6 +2,9 @@ import Container from "./components/container/Container";
 import PokemonCard from "./components/pokemon-card/PokemonCard";
 import Image from "./components/image/Image";
 
+import "./components/ability/Ability.css";
+import "./components/card/Card.css";
+
 import Logo from "./assets/Pokemon-Logo.png"
 import Bulbasaur from "./assets/bulbasaur.png"
 import Squirtle from "./assets/squirtle.png"
